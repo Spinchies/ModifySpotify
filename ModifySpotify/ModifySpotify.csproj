@@ -2,25 +2,23 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net8.0-windows10.0.22621.0</TargetFramework>
+    <TargetFramework>net6.0-windows7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
-    <SupportedOSPlatformVersion>10.0.17763.0</SupportedOSPlatformVersion>
-    <StartupObject>ModifySpotify.Program</StartupObject>
-    <PackageIcon>pngaaa.com-4041960.png</PackageIcon>
-    <ApplicationIcon>pngaaa.com-4041960.ico</ApplicationIcon>
+    <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+    <RepositoryUrl>https://github.com/Spinchies/ModifySpotify</RepositoryUrl>
+    <AssemblyVersion></AssemblyVersion>
+    <FileVersion></FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="pngaaa.com-4041960.ico" />
+    <Content Include="icon.ico" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\..\..\..\Downloads\pngaaa.com-4041960.png">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
+    <PackageReference Include="ReaLTaiizor" Version="3.8.0.5" />
   </ItemGroup>
 
   <ItemGroup>
