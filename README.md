@@ -6,7 +6,8 @@ This program is primarily for personal use and to share with friends, so that i 
 - Windows 10 / 11
 - .NET 6.0
 
-![Capture](https://github.com/Spinchies/ModifySpotify/assets/111674229/4d419e44-5b47-4812-9da6-b969aa94bef4)
+![Capture](https://github.com/user-attachments/assets/146ee2a0-5f9c-4395-a164-e4157886bd59)
+
 
 
 
