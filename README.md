@@ -1,5 +1,5 @@
 # ModifySpotify
-A Simple GUI Program that assists in installing SpotX and Spicetify for Windows 10 / 11. <br>
+A Simple GUI Program that assists in installing SpotX and Spicetify for Windows. <br>
 This program is primarily for personal use and to share with friends, so that i don't have to explain the process over and over.
 
 # Requirements
