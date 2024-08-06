@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using System.Diagnostics.Eventing.Reader;
 using System.Net;
 
 namespace ModifySpotify
@@ -30,7 +31,7 @@ namespace ModifySpotify
         {
             // SpotX
             await Download();
-            Process.Start("auto_install.bat");
+
         }
 
         private void foreverButton2_Click(object sender, EventArgs e)
@@ -48,7 +49,22 @@ namespace ModifySpotify
                 string dir = Application.StartupPath + "/resources" + "/auto_install.bat";
                 client.DownloadFileAsync(new Uri("https://raw.githack.com/amd64fox/SpotX/main/scripts/Install_Auto.bat"), dir);
                 Directory.SetCurrentDirectory(Application.StartupPath + "/resources");
-                Thread.Sleep(375);
+                int x = 1;
+                while (x == 1)
+                {
+                    if (File.Exists("auto_install.bat"))
+                    {
+                        Thread.Sleep(500);
+                        Process.Start("auto_install.bat");
+                        x = 2;
+                        break;
+                    }
+                    else
+                        Thread.Sleep(500);
+                }   
+
+                
+                    
             }
         }
     }
