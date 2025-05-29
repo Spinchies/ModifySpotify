@@ -4,7 +4,7 @@ This program is primarily for personal use and to share with friends, so that i 
 
 # Requirements
 - Windows 7+
-- .NET 6.0
+- .NET 4.8
 
 ![Capture](https://github.com/user-attachments/assets/146ee2a0-5f9c-4395-a164-e4157886bd59)
 
