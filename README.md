@@ -6,7 +6,8 @@ This program is primarily for personal use and to share with friends, so that i 
 - Windows 7+
 - .NET 4.8
 
-![Capture](https://github.com/user-attachments/assets/99235b19-bb5b-40fb-a2f5-37bd62c32870)
+<img width="502" height="584" alt="image" src="https://github.com/user-attachments/assets/eeabb7a8-76f0-4d76-8ae5-b26aa61f981c" />
+
 
 
 
